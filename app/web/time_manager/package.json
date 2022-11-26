@@ -1,0 +1,29 @@
+{
+  "name": "time_manager",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@quasar/extras": "^1.15.5",
+    "@vuepic/vue-datepicker": "^3.5.3",
+    "apexcharts": "^3.36.0",
+    "axios": "^1.1.3",
+    "bootstrap-icons-vue": "^1.8.1",
+    "moment": "^2.29.4",
+    "vue": "^3.2.41",
+    "vue-apexcharts": "^1.6.2",
+    "vue-router": "^4.1.6",
+    "vue3-apexcharts": "^1.4.1",
+    "vuedraggable": "^4.1.0",
+    "vuex": "^4.0.2",
+    "vuex-persistedstate": "^4.1.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^3.1.2",
+    "axios-localstorage-adapter": "^0.4.1",
+    "vite": "^3.1.8"
+  }
+}

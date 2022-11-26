@@ -1,0 +1,121 @@
+/* Global style */
+.editform-main{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+}
+.sectionAccount{
+    width: 70%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.editAccount{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    height: 90%;
+    width: 75%;
+}
+.editAccount div{
+    height: 8%;
+    width: 100%;
+  }
+  .editAccount label{
+    font-size: 25px;
+    color:white;
+    align-self: flex-start;
+    margin: 20px 0;
+  }
+
+
+  /* Form */
+.input{
+    display: flex;
+    flex-direction: row;
+  }
+.form_icons{
+    height: 45px;
+    width: 45px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    align-self: flex-end; 
+}
+.account-input {
+  width: 100%;
+  height: 50px;
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 16px;
+  font-weight: 400;
+  color: #fff;
+  border: 2px solid #5f6f90;
+  background-color: #2b3241;
+  outline: none;
+  transition: 0.5s;
+}
+
+
+/* Buttons */
+.buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom:20px;
+}
+.editUser{
+    font-size: 17px;
+    margin-top: 35px;
+    width: 170px;
+    height: 60px;
+    border-radius: 15px;
+    background-color: #2B3241;
+    color: #D7BA8B;
+    box-shadow: 0 0 0 0;
+    border: none;
+  }
+.editUser:hover{
+    background-color: #D7BA8B;
+    color: #2B3241;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  .logout{
+    font-size: 17px;
+    width: 30vh;
+    height: 60px;
+    margin-top: 50px;
+    border-radius: 15px;
+    background-color: #D7BA8B;
+    color: #2B3241;
+    box-shadow: 0 0 0 0;
+    border: none;
+  }
+  .logout:hover{
+    background-color: #2B3241;
+    color: #D7BA8B;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+
+  @media screen and (max-width: 950px) {
+    .editform-main {
+      display: flex;
+      flex-direction: column;
+    }
+    .editform-main .background{
+      display: none;
+    }
+    .sectionAccount{
+      width: 100%;
+      height: 80vh;
+    }
+    
+  }
+    
+  

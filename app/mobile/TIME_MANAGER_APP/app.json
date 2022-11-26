@@ -1,0 +1,35 @@
+{
+  "expo": {
+    "name": "Time Manager",
+    "slug": "TIME_MANAGER_APP",
+    "version": "1.0.4",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#171A21"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": false
+    },
+    "android": {
+      "softwareKeyboardLayoutMode": "pan",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.senzo.TIME_MANAGER_APP"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}

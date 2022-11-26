@@ -1,0 +1,81 @@
+.charts{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 65%;
+    width: 88%;
+}
+.managerChart{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60%;
+    width: 90%;
+}
+.chartWT {
+    height: 40%;
+    width: 80%;
+}
+.chartClocks, .chartColumn {
+    height: 17vh;
+}
+.chartColumn {
+    width: 62%;
+    height: 60%;
+    align-self: flex-end;
+}
+.chartClocks {
+    margin-top: 40px;
+    width: 33%;
+}
+@media screen and (max-width: 1199px) {
+    .charts{
+        width: 97%;
+        margin-top: 50px;
+    }
+    .chartColumn{
+        width: 55%;
+    }
+    .chartClocks{
+        width: 40%;
+    }
+    .managerChart{
+        width: 95%;
+    }
+
+  }
+@media screen and (max-width: 950px) {
+    .charts{
+        height: 80%;
+        margin-top: 150px;
+    }
+    .managerChart{
+        flex-direction: column-reverse;
+        height: 90%;
+        justify-content: flex-end;
+        align-items: center;
+    }
+    .chartColumn{
+        width: 100%;
+        height: 40%;
+        
+    }
+    .areaChart form{
+        margin-top: 30px;
+    }
+    .chartClocks{
+        width: 90%;
+        height: 40%;
+        margin-top: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .areachart{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+  }
+

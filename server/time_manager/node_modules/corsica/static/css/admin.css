@@ -1,0 +1,194 @@
+
+* {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+body, html {
+  height: 100%;
+}
+
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+
+.brand {
+  padding-left: 34px;
+  background: url(../img/logo-mono.svg) left center no-repeat;
+  font-family: Avenir, sans-serif;
+  font-size: 26px;
+  background-size: auto 32px;
+  float: left;
+  height: 32px;
+  line-height: 29px;
+  font-weight: normal;
+  flex-grow: 0;
+}
+
+.topbar {
+  background: #444;
+  color: #fff;
+  overflow: hidden;
+  padding: 10px 20px;
+  display: flex;
+}
+
+.breadcrumbs {
+  list-style: none;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+  line-height: 29px;
+}
+
+.breadcrumbs li {
+  display: inline;
+}
+
+.breadcrumbs li:before {
+  content: "/";
+  margin: 0 5px;
+}
+
+article > section {
+  padding: 1em;
+}
+
+.plugin {
+  background: #ddd;
+  padding: 1em;
+  width: calc(50% - .5em);
+  float: left;
+  margin-bottom: 1em;
+  position: relative;
+}
+.plugin.pending:after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #000;
+  opacity: .5;
+}
+.plugin header {
+  background: #444;
+  color: #fff;
+  padding: 1em;
+  margin: -1em -1em 1em -1em;
+}
+.plugin header.row {
+    margin-top: -1em;
+}
+.plugin:nth-child(2n) {
+  margin-left: 1em;
+  float: right;
+}
+
+.plugin .row {
+  position: relative;
+  margin-top: 1em;
+}
+.plugin .row:first-child:not(header) {
+  margin-top: 0;
+}
+.plugin input {
+  font-size: 1rem;
+  padding: .5em;
+  border: 0;
+}
+.plugin .row input.check {
+  width: 1em;
+  vertical-align: middle;
+}
+.plugin .many, .plugin .row > input {
+  vertical-align: top;
+  display: inline-block;
+  width: calc(100% - 128px);
+  position: relative;
+}
+.plugin .many input {
+  font-size: 1rem;
+  display: block;
+  width: 100%;
+  padding: .5em;
+  margin-top: 1em;
+}
+.plugin .many input:first-child {
+  margin-top: 0;
+}
+.plugin label {
+  width: 128px;
+  display: inline-block;
+  padding: .5em 1em;
+  text-align: right;
+}
+button {
+  font-size: 1rem;
+  padding: .5em 1em;
+  border: 0;
+  background: #5EB95E;
+  color: #fff;
+  float: right;
+  cursor: pointer;
+  margin-left: 0.5em;
+}
+button:hover {
+  background: #8ECD8E;
+}
+button::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+.stats {
+  position: relative;
+  margin: 0;
+  padding: 6px 0 0;
+  list-style: none;
+  text-align: right;
+  flex-grow: 1;
+}
+
+.logs ul {
+  max-height: 500px;
+  overflow: auto;
+}
+
+.logs ul li .top .expander {
+  cursor: pointer;
+}
+
+.logs ul li pre {
+  display: none;
+}
+
+.logs ul li.expanded pre {
+  display: block;
+}
+
+@media screen and (max-width: 800px) {
+  .plugin {
+    width: 100%;
+  }
+  .plugin label {
+    text-align: left;
+    margin-bottom: .5em;
+  }
+  .plugin input {
+    display: block;
+    width: 100%;
+  }
+  .plugin:nth-child(2n) {
+    margin-left: 0;
+  }
+}

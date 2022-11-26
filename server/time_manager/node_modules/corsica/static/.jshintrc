@@ -1,0 +1,14 @@
+{
+    "browser": true,
+    "strict": false,
+    
+    "globals": {
+        "console": false,
+        "sendMessage": true,
+        "URL": false,
+        "socket": false,
+        "makeEl": true,
+        "io": true,
+        "Promise": false
+    }
+}

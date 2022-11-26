@@ -1,0 +1,43 @@
+name: Elixir-Phoenix CI
+
+on:
+  push:
+  pull_request:
+    branches: [ "main" ]
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+
+    name: Build and test Elixir with postgres
+    runs-on: ubuntu-latest
+    services:
+      postgres:
+        image: postgres:15.0-alpine
+        env:
+          POSTGRES_PASSWORD: 6yALA9noBUwTNk8mX
+        options: >-
+          --health-cmd pg_isready
+          --health-interval 10s
+          --health-timeout 5s
+          --health-retries 5
+
+    steps:
+    - uses: actions/checkout@v3
+    - name: Set up Elixir
+      uses: erlef/setup-beam@v1
+      with:
+        elixir-version: '1.13.4'
+        otp-version: '25.0.4'
+    - name: Restore dependencies cache
+      uses: actions/cache@v3
+      with:
+        path: deps
+        key: ${{ runner.os }}-mix-${{ hashFiles('**/mix.lock') }}
+        restore-keys: ${{ runner.os }}-mix-
+    - name: Install dependencies
+      run: cd ${{ github.workspace }}/server/time_manager && mix deps.get
+    - name: Compile App
+      run: cd ${{ github.workspace }}/server/time_manager && mix compile

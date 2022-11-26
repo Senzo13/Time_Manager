@@ -1,0 +1,49 @@
+version: "3.6"
+
+services:
+  api:
+    image: time-manager_api:dev
+    container_name: timeManager_api
+    build:
+      context: ./server/time_manager/
+      dockerfile: Dockerfile
+
+    restart: unless-stopped
+    env_file: .env
+    ports:
+      - "4000:4000"
+    depends_on:
+      - db
+    networks:
+      - timeManager
+  db:
+    image: postgres:15.0-alpine
+    container_name: timeManager_db
+    restart: unless-stopped
+    env_file: .env
+    volumes:
+      - dbdata:/var/lib/postgresql/data
+    networks:
+      - timeManager
+  front:
+      image: time-manager_web:dev
+      container_name: timeManager_web
+      build:
+        context: ./app/web/time_manager
+        dockerfile: Dockerfile
+
+      ports:
+        - "80:80"
+      depends_on:
+        - api
+      networks:
+        - timeManager
+
+volumes:
+  dbdata:
+    
+networks:
+  timeManager:
+    external: false
+
+

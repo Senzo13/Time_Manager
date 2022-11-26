@@ -1,0 +1,6 @@
+server/time_manager/config/dev.exs
+app\web\time_manager\package-lock.json
+server/time_manager/data/*
+app\web\time_manager\node_modules\*
+.env
+server\time_manager\config\dev.exs
