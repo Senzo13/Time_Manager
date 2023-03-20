@@ -1,17 +1,13 @@
-<h1 align="center">Time Manager</h1>
-<h3 align="center">for my Epitech project</h3>
+<h1 align="center">Site-Web-Manager</h1>
 
 <div align="center"><img src="https://user-images.githubusercontent.com/52446531/204094999-5645d9ed-22d2-49d2-b112-3f0eba30706f.png" width="100%" height="100%"/></div>
 
-- 📫 How to reach me **lorenzo.travail@gmail.com**
+Projet d'étude de piscine d'entrée à Epitech, technologies utilisés 
 
-- 📄 Know about my experiences [https://www.linkedin.com/in/lorenzo-giralt/](https://www.linkedin.com/in/lorenzo-giralt/)
+- [Elixir](https://elixir-lang.org/) <img src="https://img.shields.io/badge/-Elixir-4B275F?style=flat-square&logo=elixir&logoColor=white" alt="Elixir logo">
+- [Vue.js](https://vuejs.org/) <img src="https://img.shields.io/badge/-Vue.js-4FC08D?style=flat-square&logo=vue-dot-js&logoColor=white" alt="Vue.js logo">
+- [Bootstrap](https://getbootstrap.com/) <img src="https://img.shields.io/badge/-Bootstrap-563D7C?style=flat-square&logo=bootstrap&logoColor=white" alt="Bootstrap logo">
+- [Docker](https://www.docker.com/) <img src="https://img.shields.io/badge/-Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker logo">
+- [Erlang](https://www.erlang.org/) <img src="https://img.shields.io/badge/-Erlang-A90533?style=flat-square&logo=erlang&logoColor=white" alt="Erlang logo">
+- [Vuetify](https://vuetifyjs.com/) <img src="https://img.shields.io/badge/-Vuetify-1867C0?style=flat-square&logo=vuetify&logoColor=white" alt="Vuetify logo">
 
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-<a href="https://linkedin.com/in/lorenzo giralt" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="lorenzo giralt" height="30" width="40" /></a>
-</p>
-
-
-<h3 align="left">Languages and Tools:</h3>
-<p align="left"> <a href="https://getbootstrap.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg" alt="bootstrap" width="40" height="40"/> </a> <a href="https://www.chartjs.org" target="_blank" rel="noreferrer"> <img src="https://www.chartjs.org/media/logo-title.svg" alt="chartjs" width="40" height="40"/> </a> <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a> <a href="https://www.docker.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" alt="docker" width="40" height="40"/> </a> <a href="https://elixir-lang.org" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/elixir-lang/elixir-lang-icon.svg" alt="elixir" width="40" height="40"/> </a> <a href="https://www.erlang.org/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/erlang/erlang-official.svg" alt="erlang" width="40" height="40"/> </a> <a href="https://www.figma.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/figma/figma-icon.svg" alt="figma" width="40" height="40"/> </a> <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> <a href="https://www.linux.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" width="40" height="40"/> </a> <a href="https://www.postgresql.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg" alt="postgresql" width="40" height="40"/> </a> <a href="https://postman.com" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" alt="postman" width="40" height="40"/> </a> <a href="https://reactnative.dev/" target="_blank" rel="noreferrer"> <img src="https://reactnative.dev/img/header_logo.svg" alt="reactnative" width="40" height="40"/> </a> <a href="https://vuejs.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vuejs/vuejs-original-wordmark.svg" alt="vuejs" width="40" height="40"/> </a> <a href="https://vuetifyjs.com/en/" target="_blank" rel="noreferrer"> <img src="https://bestofjs.org/logos/vuetify.svg" alt="vuetify" width="40" height="40"/> </a> </p>
